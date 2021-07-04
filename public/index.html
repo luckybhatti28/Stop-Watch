@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Uchen&display=swap" rel="stylesheet">
+    <title>Stop watch</title>
+    <link rel="icon" href="./images/download.png">
+   
+</head>
+
+<body>
+    <div class="watch">
+        <h1>STOP WATCH
+            <hr id="stop-watch">
+        </h1>
+    </div>
+    <br>
+    <div image>
+        <img src="./images/digital-stopwatch-1911120-1613812.png" alt="This Is Image" width="250px">
+    </div>
+
+    <div class="time">
+        <h1 id="hour">00</h1>
+        <h1>:</h1>
+        <h1 id="min">00</h1>
+        <h1>:</h1>
+        <h1 id="sec">00</h1>
+        <h1>:</h1>
+        <h1 id="msec">00</h1>
+    </div>
+    <div>
+        <button id="start-btn" onclick="start()">START</button>
+        <button id="reset-btn" onclick="reset()">RESET</button>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
